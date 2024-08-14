@@ -1,0 +1,89 @@
+/* CreateStudent.css */
+.create-student-container {
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.create-student-container h2 {
+    color: #343a40;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.create-student-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-student-container label {
+    font-size: 16px;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.create-student-container input[type="text"],
+.create-student-container input[type="date"] {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.create-student-container input[type="text"]:focus,
+.create-student-container input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.create-student-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.create-student-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+.create-student-container button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.create-student-container input[type="text"]::placeholder,
+.create-student-container input[type="date"]::placeholder {
+    color: #6c757d;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.alert.success {
+    background-color: #28a745; 
+}
+
+.alert.error {
+    background-color: #dc3545; 
+}

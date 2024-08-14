@@ -1,0 +1,5 @@
+En este proyecto al momento de levantar el FrontEnd en el formulario de enter grade ingresaremos por ej: Primer Grado, Segundo Grado, Tercer Grado, etc
+ya que en el BackEnd en el modelo de estudiante la section y el grado esta en String y no en number por lo cual ingresaremos texto, igualmente en postman al momento de buscar 
+o mejor dicho consultar el alumno esta seria la URL: http://localhost:3000/student/consultar-alumno/Primer Grado
+
+Muchas gracias por su atencion y tiempo para poder visualizar este ejercicio, saludos y buen dia.
